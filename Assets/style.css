@@ -53,52 +53,59 @@ a {
     color:white;
     padding:20px;
     position:absolute;
-    bottom: 14px;
+    bottom: 40px;
     right: 16px;
     opacity:.6;
 }
 
-h3 {
-    color: white;
-    text-decoration-line:underline;
-    padding:20px;
-    width: 30%;
-    border-style:solid;
-    border-right-color:white;
-    border-right-width: 0px 10px 0px 0px;
+.container  {
+    padding-top: 20px;
+    border:none;
+    display: flex;
 }
 
-.maincontent {
+.col1, .col2 {
     margin: 20px;
     padding: 20px;
-    width: 100%;
-    display:flex;
+    margin:auto;
+    margin-bottom:20px;
+
 }
 
-.columns {
-    display:flex;
+.col1 {
+    width:30%;
+    margin:auto;
 }
 
-.columns h3 {
-    border-right: 6px solid white;
-    border-left: black;
+.col2 {
+    width:70%;
+    border-left: 6px solid white;
+    border-right: black;
     border-top: black;
     border-bottom:black;
-    height: 100%;
+}
+
+.col2 img {
+    width:20%;
     text-align:center;
-    left: 50%;
-    margin-left: -3px;
-    top: 0;
+    display:block; 
+    float:left;
+    padding:20px;
 }
 
-.columns p {
-    color: white;
-    padding-left:20px;
-    margin: auto;
+.container p {
+    color:white;
+    text-align:left;
+    padding:20px;
+
+}
+.container a {
+    color:white;
+    text-align:left;
+    text-decoration:underline;
 }
 
-@media screen and (max-width: 800px) {
-    .columns  {
-      float: none;
-      width: 100%;
+.container h1 {
+    color:white;
+    text-align:center;
 }
