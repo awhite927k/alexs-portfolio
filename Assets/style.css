@@ -135,40 +135,37 @@ a {
     text-align:center;
 }
 
-.pics:hover {
-    transform: scale(1.01);
-    border:white 1px solid;
-    padding:0px;
-  }
-
   .navbar-container {
     display: flex;
     flex-direction: column;
-    background-color: #523939;
-    justify-content: center;
-    align-items: center;
-    
+    background-color: #963e38;
+    width:100%;
   }
   
   .nav-buttons-container {
-    background-color: #262648;
+    background-color: #963e38;
     margin: 2px auto;
-    width: 100%;
+    width: auto;
   }
   
   .navbar-container ul {
     text-align: center;
-    margin: 10px 0;
+    margin: 10px;
     font-family: sans-serif;
   }
   
   .navbar-container li {
     text-decoration: none;
     display: inline;
+    margin: 10px;
   }
-  
+
   .navbar-container button {
-    color: #8cacce;
+    color: black;
     padding: 0 25px;
     font-kerning: 2px;
   }
+
+  .navbar-container button:hover {
+    transform: scale(1.1);
+}
