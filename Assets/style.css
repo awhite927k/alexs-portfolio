@@ -140,3 +140,35 @@ a {
     border:white 1px solid;
     padding:0px;
   }
+
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #523939;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .nav-buttons-container {
+    background-color: #262648;
+    margin: 2px auto;
+    width: 100%;
+  }
+  
+  .navbar-container ul {
+    text-align: center;
+    margin: 10px 0;
+    font-family: sans-serif;
+  }
+  
+  .navbar-container li {
+    text-decoration: none;
+    display: inline;
+  }
+  
+  .navbar-container button {
+    color: #8cacce;
+    padding: 0 25px;
+    font-kerning: 2px;
+  }
