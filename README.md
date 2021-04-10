@@ -16,4 +16,4 @@ SO THAT I can review samples of their work and assess whether they're a good can
 https://awhite927k.github.io/alexs-portfolio/
 
 ## Contact Information
-awhite214@gmail.com
+awhite214@gmail.com 
