@@ -175,3 +175,13 @@ a {
     padding: 0 25px;
     font-kerning: 2px;
   }
+
+  .samples-container {
+      text-align: left;
+      color: white;
+      padding: 40px;
+  }
+
+  .samples-container img {
+      width: 50%;
+  }
