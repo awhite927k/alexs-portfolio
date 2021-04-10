@@ -13,3 +13,7 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ![A sneak peak at the site](./Assets/portfolio.png) 
 
 ## Link to Live Site
+https://awhite927k.github.io/alexs-portfolio/
+
+## Contact Information
+awhite214@gmail.com
